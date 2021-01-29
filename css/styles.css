@@ -1,0 +1,99 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-image: url('../img/26718.jpg');
+  background-position: left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 50px 0 50px;
+}
+.testimonials {
+  text-align: center;
+  margin: 0 auto;
+}
+.client {
+  color: rgb(196, 64, 17);
+}
+.title {
+  color: #fff;
+}
+.testimonials-box {
+  position: relative;
+  max-width: 800px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  margin: 50px auto;
+}
+.user-pic {
+  width: 200px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: -72px;
+  border: 3px solid #fff;
+}
+.quote-img {
+  font-size: 150px;
+  line-height: 0;
+  color: rgb(163, 47, 4);
+  display: block;
+}
+.testimonials-text {
+  margin-bottom: 80px;
+}
+.controller {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  outline: none !important;
+  font-weight: bolder;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 24px;
+  line-height: 0;
+}
+.controller:active {
+  outline: none !important;
+  opacity: 0.5;
+}
+.controller:hover {
+  opacity: .5;
+}
+.left-btn {
+  top: 50%;
+  right: 101%;
+}
+.right-btn {
+  top: 50%;
+  left: 101%;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    overflow-y: auto;
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  .left-btn {
+    top: 105%;
+    right: 53%;
+  }
+  .right-btn {
+    top: 105%;
+    left: 53%;
+  }
+  .controller {
+    color: coral;
+    border: 2px solid coral;
+  }
+  .title {
+    font-size: 30px;
+  }
+}
