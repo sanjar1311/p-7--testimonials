@@ -1,12 +1,12 @@
-var $_ = function (selector, node = document) {
+let $_ = function (selector, node = document) {
   return node.querySelector(selector);
 };
 
-var $$_ = function (selector, node = document) {
+let $$_ = function (selector, node = document) {
   return node.querySelectorAll(selector);
 };
 
-var createElement = function (tagName, className, text) {
+let createElement = function (tagName, className, text) {
   var element = document.createElement(tagName);
   element.setAttribute('class', className);
 
@@ -16,3 +16,27 @@ var createElement = function (tagName, className, text) {
 
   return element;
 };
+
+let elUserPic = $_('.user-pic');
+let elAuthor = $_('.author');
+let elText = $_('.testimonials-text');
+
+var elControllers = document.querySelectorAll('.controller');
+
+let quotes = [
+  {
+    author: ``,
+    text: ``,
+    img: ``
+  }
+];
+
+
+function nextTestemonials () {
+
+}
+
+
+elControllers.forEach((btn) => {
+  btn.addEventListener('click', nextTestemonials);
+})

@@ -39,9 +39,7 @@ body {
   line-height: 0;
   color: rgb(163, 47, 4);
   display: block;
-}
-.testimonials-text {
-  margin-bottom: 80px;
+  margin-top: 80px;
 }
 .controller {
   position: absolute;
