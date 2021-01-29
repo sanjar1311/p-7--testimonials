@@ -1,5 +1,5 @@
 body {
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
   background-image: url('../img/26718.jpg');
   background-position: left center;
@@ -16,9 +16,11 @@ body {
 }
 .title {
   color: #fff;
+  margin-bottom: 50px;
 }
 .testimonials-box {
   position: relative;
+  width: 100%;
   max-width: 800px;
   border: 2px solid #fff;
   border-radius: 8px;
@@ -29,9 +31,9 @@ body {
 }
 .user-pic {
   width: 200px;
-  height: 100px;
+  height: 200px;
   border-radius: 50%;
-  margin-top: -72px;
+  margin-top: -120px;
   border: 3px solid #fff;
 }
 .quote-img {
@@ -78,6 +80,11 @@ body {
     overflow-y: auto;
     height: 100%;
     padding-bottom: 50px;
+  }
+  .user-pic {
+    width: 150px;
+    height: 150px;
+    margin-top: -95px;
   }
   .left-btn {
     top: 105%;
